@@ -1,0 +1,1 @@
+document.h1.style.css = '#10f0fe'
