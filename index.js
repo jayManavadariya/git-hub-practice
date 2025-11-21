@@ -1,2 +1,6 @@
-document.querySelector("h1").style.color = "#f3a67aff";
-document.querySelector("h3").style.color = "#7a91f3ff";
+document.querySelector("h1").style.opacity = 0;
+
+setTimeout(() => {
+  document.querySelector("h1").style.transition = "1s";
+  document.querySelector("h1").style.opacity = 1;
+}, 200);
