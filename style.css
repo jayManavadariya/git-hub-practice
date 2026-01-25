@@ -1,6 +1,75 @@
-h1{
-    color:red;
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f3a67a, #ffddcc);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-h3{
-    color: red
+
+/* Center box */
+.container {
+    background: #ffffff;
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    width: 350px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #f28242;
+    margin-bottom: 20px;
+}
+
+/* Input wrapper */
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* Label style */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* Input and select styling */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #f3a67a;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #e4641a;
+    box-shadow: 0 0 6px rgba(228, 100, 26, 0.4);
+}
+
+/* Submit button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #e4641a;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff8847;
+    transform: translateY(-2px);
 }
